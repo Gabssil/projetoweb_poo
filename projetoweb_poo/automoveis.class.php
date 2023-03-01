@@ -13,7 +13,8 @@ class automoveis {
     public function setTipo($tipo){
      $this->tipo =$tipo;
     }
-
+    
+//cor
     public function getCor(){
         return $this->cor;
     }
@@ -21,7 +22,8 @@ class automoveis {
     public function setCor($cor){
      $this->cor =$cor;
     }
-
+    
+//placa
     public function getPlaca(){
         return $this->placa;
     }
@@ -29,7 +31,8 @@ class automoveis {
     public function setPlaca($placa){
      $this->placa =$placa;
     }
-
+    
+//numero de placas
     public function getNumeroDeportas(){
         return $this->numeroDeportas;
     }
